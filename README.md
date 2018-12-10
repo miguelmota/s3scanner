@@ -1,6 +1,6 @@
 # s3scanner
 
-> Scan for open public S3 buckets
+> Scan for open public [S3](https://aws.amazon.com/s3/) buckets
 
 ## Install
 
@@ -33,6 +33,12 @@ flaws.cloud
 
 not public: reddit.com
 not public: stackoverflow.com
+```
+
+## Test
+
+```bash
+make test
 ```
 
 ## License
