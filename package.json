@@ -1,0 +1,50 @@
+{
+  "name": "s3scanner",
+  "version": "0.0.1",
+  "description": "Scan for open public S3 buckets",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "bin": {
+    "s3scanner": "bin/s3scanner"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/miguelmota/s3scanner"
+  },
+  "keywords": [
+    "s3",
+    "bucket",
+    "scrape",
+    "fuzzy",
+    "search"
+  ],
+  "author": {
+    "name": "Miguel Mota",
+    "email": "hello@miguelmota.com",
+    "url": "https://miguelmota.com/"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/miguelmota/s3scanner/blob/master/LICENSE"
+  },
+  "bugs": {
+    "url": "https://github.com/miguelmota/s3scanner/issues"
+  },
+  "homepage": "https://github.com/miguelmota/s3scanner",
+  "devDependencies": {
+    "tape": "^4.9.1"
+  },
+  "engines": {
+    "node": ">= 7.6.0"
+  },
+  "dependencies": {
+    "array-unique": "^0.3.2",
+    "is-valid-domain": "0.0.6",
+    "qs": "^6.6.0",
+    "shelljs": "^0.8.3",
+    "url-parse": "^1.4.4"
+  },
+	"preferGlobal": true
+}

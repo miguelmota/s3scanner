@@ -1,0 +1,4 @@
+flaws.cloud
+http://flaws.cloud
+reddit.com
+stackoverflow.com
